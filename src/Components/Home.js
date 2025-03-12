@@ -12,8 +12,8 @@ const Home = () => {
       <div className='HomePage'>
 
         <div className='HomeText'>
-          <h1>Hi There!</h1>
-          <h1>I'M <b>DEVANSH SAHNI</b></h1>
+          <h1>Hello World 👋,</h1>
+          <h1>I'm <b>Alexus Brooklyn</b></h1>
           <Typed/>   
         </div>
 
