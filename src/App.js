@@ -28,7 +28,7 @@ function App() {
       {Loading ? (
       <div className="loader"> 
         <HashLoader
-          color={'#9067C6'}
+          color={'#4840BB'}
           loading={true}
           size={100}
           aria-label="Loading Spinner"
@@ -38,9 +38,8 @@ function App() {
       ):(
       <div>
       
-      <Lottie className="bg" animationData={nightsky} loop={true} />  
-      <Lottie className="bgtwo" animationData={nightsky} loop={true} />   
-      <Lottie className="bgtemp" animationData={nightsky} loop={true} /> 
+      {/* <Lottie className="bg" anim
+      " animationData={nightsky} loop={true} />  */}
 
       <Nav/>
       <MoveToTop/>

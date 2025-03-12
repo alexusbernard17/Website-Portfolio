@@ -20,14 +20,16 @@
 
 body{
   font-family: 'Raleway', sans-serif;
-  background-color: #031926;
-  color: #E7E7E7;
+  background-color: #ffffff;
+  background: linear-gradient(90deg, #F7EAE4, #DCDEF1);
+  /* color: #E7E7E7; */
+  color: #230B59;
   min-height: 100vh;
 }
 
 b{
-  font-weight: 900;
-  color: #9067C6;
+  font-weight: bolder;
+  color: #4840BB;
 }
 
 /* Scrollbar */
@@ -209,14 +211,14 @@ b{
 .HomePage{
   display: flex;
   justify-content: space-evenly;
-  min-height: 80vh;
+  min-height: 75vh;
   margin-top: 100px;
   margin-bottom: -50px;
   align-items: center;
 }
 .HomeText h1{
   font-weight: 600;
-  font-size: 38px;
+  font-size: 45px;
   letter-spacing: 0.7px;
   padding-top: 10px;
 }
