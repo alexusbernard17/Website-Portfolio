@@ -4,7 +4,7 @@ import SpaceBoy from "../LottieFiles/SpaceBoy.json";
 import Typed from "./Typed.js";
 import Tilt from 'react-parallax-tilt';
 import Avatar from '../images/Avatar.png';
-import {CiCoffeeCup} from "react-icons/ci";
+import {CiCoffeeCup} from "react-icons/ci";          
 
 const Home = () => {
   return (
@@ -15,6 +15,9 @@ const Home = () => {
           <h1>Hello World 👋,</h1>
           <h1>I'm <b>Alexus Brooklyn</b></h1>
           <Typed/>   
+
+
+          <i class="devicon-linkedin-plain colored"></i>
         </div>
 
         <Lottie 

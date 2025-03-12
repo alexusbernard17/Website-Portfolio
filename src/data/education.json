@@ -1,0 +1,32 @@
+{
+    "education": [
+      {
+        "id": 1,
+        "school": "Harvard University",
+        "degree": "Master of Science in Computer Science",
+        "date": "2018 - 2020",
+        "grade": "3.9/4.0 GPA",
+        "desc": "Focused on artificial intelligence, machine learning, and software engineering. Completed a thesis on deep learning algorithms.",
+        "img": "https://example.com/harvard-logo.png"
+      },
+      {
+        "id": 2,
+        "school": "Stanford University",
+        "degree": "Bachelor of Science in Software Engineering",
+        "date": "2014 - 2018",
+        "grade": "3.8/4.0 GPA",
+        "desc": "Specialized in full-stack development, data structures, and algorithms. Participated in multiple hackathons and research projects.",
+        "img": "https://example.com/stanford-logo.png"
+      },
+      {
+        "id": 3,
+        "school": "XYZ High School",
+        "degree": "High School Diploma",
+        "date": "2010 - 2014",
+        "grade": "4.0/4.0 GPA",
+        "desc": "Excelled in mathematics and computer science courses. Served as the president of the coding club and participated in competitive programming contests.",
+        "img": "https://example.com/highschool-logo.png"
+      }
+    ]
+  }
+  

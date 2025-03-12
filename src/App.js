@@ -10,6 +10,8 @@ import MoveToTop from "./Components/MoveToTop";
 import Lottie from  "lottie-react";
 import nightsky from "./LottieFiles/night-sky.json";
 import HashLoader from "react-spinners/HashLoader";
+import Education from "./Components/Education";
+import educationData from "./data/education.json"
 
 
 function App() {
@@ -44,13 +46,16 @@ function App() {
       <Nav/>
       <MoveToTop/>
 
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/About" element={<About/>}/>
         <Route path="/Project" element={<Project/>}/>
         <Route path="/Resume" element={<Resume/>}/>
-      </Routes>
-      
+      </Routes> */}
+      <Home/>          
+      <About/>
+      <Education education={educationData.education}/>
+
       <Footer/>
       </div>
       )}  
