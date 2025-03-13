@@ -145,6 +145,7 @@ b{
   width: 95%;
   padding: 2px 7px;
   text-decoration: none;
+  cursor: pointer;
 }
 .NavbarLinks a:hover{
   color: #4840BB;

@@ -6,7 +6,6 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Project from "./Components/Projects";
-import MoveToTop from "./Components/MoveToTop";
 import Lottie from  "lottie-react";
 import nightsky from "./LottieFiles/night-sky.json";
 import HashLoader from "react-spinners/HashLoader";
@@ -46,17 +45,15 @@ function App() {
       " animationData={nightsky} loop={true} />  */}
 
       <Nav/>
-      <MoveToTop/>
-
-      {/* <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/About" element={<About/>}/>
-        <Route path="/Project" element={<Project/>}/>
-        <Route path="/Resume" element={<Resume/>}/>
-      </Routes> */}
-      <Home />
-      <Education education={educationData.education} />
-      <Experience experience={experienceData.experience} />
+      <section id="home">
+        <Home />
+      </section>
+      <section id="education">
+        <Education education={educationData.education} />
+      </section>
+      <section id="experience">
+        <Experience experience={experienceData.experience} />
+      </section>
       <Footer />
       </div>
       )}  

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 
 const Nav = () => {
@@ -50,10 +50,10 @@ const Nav = () => {
         </div>
 
         <ul className='NavbarLinks'>
-            <li onClick={hideMenu}><Link to="/"> Home</Link></li>
-            <li onClick={hideMenu}><Link to="/About"> About</Link></li>
-            <li onClick={hideMenu}><Link to="/Project">Project</Link></li>
-            <li onClick={hideMenu}><Link to="/Resume"> Resume</Link></li>
+            <li onClick={hideMenu}><Link to="home" smooth={true} duration={100}>About</Link></li>
+            <li onClick={hideMenu}><Link to="education" smooth={true} duration={100}>Education</Link></li>
+            <li onClick={hideMenu}><Link to="experience" smooth={true} duration={100}>Experience</Link></li>
+            {/* <li onClick={hideMenu}><Link to="/Resume">Skill</Link></li> */}
         </ul>
         
     </nav>
