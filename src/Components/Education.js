@@ -13,7 +13,7 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 0 160px;
+  padding: 100px 0 160px;
   position: relative;
   z-index: 1;
   @media (max-width: 960px) {
@@ -38,14 +38,14 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled.div`
-  font-size: 42px;
+  font-size: 35px;
   text-align: center;
   font-weight: 600;
   margin-top: 20px;
   color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
     margin-top: 12px;
-    font-size: 32px;
+    font-size: 26px;
   }
 `;
 

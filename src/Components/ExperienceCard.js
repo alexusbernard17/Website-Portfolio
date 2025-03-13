@@ -13,17 +13,6 @@ const Document = styled.img`
     }
 `;
 
-const Description = styled.p`
-    width: 100%;
-    font-size: 15px;
-    font-weight: 400;
-    color: ${({ theme }) => theme.text_primary + 99};
-    margin-bottom: 10px;
-    @media only screen and (max-width: 768px) {
-        font-size: 12px;
-    }
-`;
-
 const Span = styled.span`
     overflow: hidden;
     display: -webkit-box;
@@ -76,7 +65,7 @@ const Top = styled.header`
 `;
 
 const Image = styled.img`
-    height: 150px;
+    height: 100px;
     border-radius: 10px;
     margin-top: 4px;
     @media only screen and (max-width: 768px) {
@@ -91,7 +80,7 @@ const Body = styled.div`
 `;
 
 const Company = styled.h3`
-    font-size: 25px;
+    font-size: 21px;
     font-weight: 600;
     margin-bottom: -3px;
     color: ${({ theme }) => theme.text_secondary + 99};
@@ -101,7 +90,7 @@ const Company = styled.h3`
 `;
 
 const Role = styled.p`
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 500;
     font-style: italic;
     color: ${({ theme }) => theme.text_primary + 99};
@@ -111,12 +100,12 @@ const Role = styled.p`
 `;
 
 const LocationDate = styled.p`
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     margin-top: 4%;
     color: ${({ theme }) => theme.text_secondary + 80};
     @media only screen and (max-width: 768px) {
-        font-size: 12px;
+        font-size: 10px;
     }
 `;
 

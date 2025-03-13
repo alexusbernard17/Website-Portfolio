@@ -309,6 +309,7 @@ b{
   margin-top: 100px;
   align-items: center;
   padding: 25px;
+  padding-top: 200px;
 }
 
 .AboutText{
@@ -336,7 +337,8 @@ b{
   .AboutPage{
     display: block;
     text-align: center;
-    padding: 30px;    
+    padding: 30px;
+    padding-top: 100px;  
   }
   .AboutText{
     text-align: left;

@@ -61,7 +61,7 @@ const Top = styled.div`
 `;
 
 const Image = styled.img`
-    height: 150px;
+    height: 100px;
     border-radius: 10px;
     margin-top: 4px;
     @media only screen and (max-width: 768px) {
@@ -76,7 +76,7 @@ const Body = styled.div`
 `;
 
 const Name = styled.h2`
-    font-size: 25px;
+    font-size: 21px;
     font-weight: 600;
     margin-bottom: -3px;
     color: ${({ theme }) => theme.text_primary + 99};
@@ -86,7 +86,7 @@ const Name = styled.h2`
 `;
 
 const Location = styled.p`
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
     color: ${({ theme }) => theme.text_secondary + 99};
     @media only screen and (max-width: 768px) {
@@ -95,7 +95,7 @@ const Location = styled.p`
 `;
 
 const Degree = styled.p`
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     font-style: italic;
     margin-top: 3%;
@@ -108,7 +108,7 @@ const Degree = styled.p`
 `;
 
 const Date = styled.p`
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
     color: ${({ theme }) => theme.text_secondary + 80};
     @media only screen and (max-width: 768px) {
