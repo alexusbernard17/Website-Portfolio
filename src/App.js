@@ -57,9 +57,7 @@ function App() {
       <Home />
       <Education education={educationData.education} />
       <Experience experience={experienceData.experience} />
-      {/* <About/> */}
-
-      <Footer/>
+      <Footer />
       </div>
       )}  
     </>
