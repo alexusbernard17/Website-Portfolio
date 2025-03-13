@@ -11,7 +11,9 @@ import Lottie from  "lottie-react";
 import nightsky from "./LottieFiles/night-sky.json";
 import HashLoader from "react-spinners/HashLoader";
 import Education from "./Components/Education";
-import educationData from "./data/education.json"
+import Experience from "./Components/Experience";
+import educationData from "./data/education.json";
+import experienceData from "./data/experience.json";
 
 
 function App() {
@@ -52,8 +54,9 @@ function App() {
         <Route path="/Project" element={<Project/>}/>
         <Route path="/Resume" element={<Resume/>}/>
       </Routes> */}
-      <Home/>
-      <Education education={educationData.education}/>          
+      <Home />
+      <Education education={educationData.education} />
+      <Experience experience={experienceData.experience} />
       {/* <About/> */}
 
       <Footer/>

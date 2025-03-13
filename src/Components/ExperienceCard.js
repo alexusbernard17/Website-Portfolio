@@ -13,6 +13,17 @@ const Document = styled.img`
     }
 `;
 
+const Description = styled.p`
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.text_primary + 99};
+    margin-bottom: 10px;
+    @media only screen and (max-width: 768px) {
+        font-size: 12px;
+    }
+`;
+
 const Span = styled.span`
     overflow: hidden;
     display: -webkit-box;
@@ -25,7 +36,7 @@ const Span = styled.span`
 const Card = styled.article`
     width: 650px;
     border-radius: 10px;
-    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
     padding: 12px 16px;
     justify-content: space-between;
     position: relative;
@@ -41,20 +52,24 @@ const Card = styled.article`
     }
     @media only screen and (max-width: 768px) {
         padding: 10px;
-        gap: 8px;
+        gap: 12px;
         width: 300px;
     }
+    @media only screen and (max-width: 575px) {
+        width: 290px;
+        padding: 12px 8px;
+    }
     &:hover ${Document} {
-        display: flex;
+        display: block;
     }
     &:hover ${Span} {
         overflow: visible;
         -webkit-line-clamp: unset;
     }
-    border: 0.1px solid #854CE6;
+    border: 0.1px solid #306EE8;
 `;
 
-const Top = styled.div`
+const Top = styled.header`
     width: 100%;
     display: flex;
     gap: 12px;
@@ -75,63 +90,52 @@ const Body = styled.div`
     flex-direction: column;
 `;
 
-const Name = styled.h2`
+const Company = styled.h3`
     font-size: 25px;
     font-weight: 600;
     margin-bottom: -3px;
-    color: ${({ theme }) => theme.text_primary + 99};
+    color: ${({ theme }) => theme.text_secondary + 99};
     @media only screen and (max-width: 768px) {
         font-size: 14px;
     }
 `;
 
-const Location = styled.p`
-    font-size: 17px;
-    font-weight: 500;
-    color: ${({ theme }) => theme.text_secondary + 99};
-    @media only screen and (max-width: 768px) {
-        font-size: 10px;
-    }
-`;
-
-const Degree = styled.p`
-    font-size: 18px;
+const Role = styled.p`
+    font-size: 19px;
     font-weight: 500;
     font-style: italic;
-    margin-top: 3%;
-    margin-bottom: -3px;
-    color: ${({ theme }) => theme.text_secondary + 99};
+    color: ${({ theme }) => theme.text_primary + 99};
     @media only screen and (max-width: 768px) {
         font-size: 12px;
-        line-height: 15px;
     }
 `;
 
-const Date = styled.p`
-    font-size: 17px;
-    font-weight: 500;
+const LocationDate = styled.p`
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 4%;
     color: ${({ theme }) => theme.text_secondary + 80};
     @media only screen and (max-width: 768px) {
-        font-size: 10px;
+        font-size: 12px;
     }
 `;
 
-const EducationCard = ({ education }) => {
+const ExperienceCard = ({ experience }) => {
     return (
-        <Card aria-labelledby={`education-card-${education.id}`} tabIndex="0">
+        <Card
+            aria-labelledby={`experience-card-${experience.id}`}
+            aria-label={`Experience at ${experience.company}`}
+        >
             <Top>
-                <Image 
-                    src={education.img}
-                />
+                <Image src={experience.img} />
                 <Body>
-                    <Name>{education.school}</Name>
-                    <Location>{education.location}</Location>
-                    <Degree>{education.degree}</Degree>
-                    <Date>{education.date}</Date>
+                    <Company>{experience.company}</Company>
+                    <Role>{experience.role}</Role>
+                    <LocationDate>{experience.location}   |   {experience.date}</LocationDate>
                 </Body>
             </Top>
         </Card>
     );
 };
 
-export default EducationCard;
+export default ExperienceCard;

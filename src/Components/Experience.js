@@ -1,26 +1,19 @@
-import React from 'react';
 import styled from 'styled-components';
-import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import EducationCard from './EducationCard';
+import ExperienceCard from './ExperienceCard';
 
-const Container = styled.div`
+const Container = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 0 160px;
+  padding: 0 0 60px;
   position: relative;
   z-index: 1;
-  @media (max-width: 960px) {
-    padding: 0;
-    padding-top: 40px;
-    padding-bottom: 100px;
-  }
 `;
 
 const Wrapper = styled.div`
@@ -37,11 +30,12 @@ const Wrapper = styled.div`
   }
 `;
 
-const Title = styled.div`
+const Title = styled.h2`
   font-size: 42px;
   text-align: center;
   font-weight: 600;
   margin-top: 20px;
+  margin-bottom: 6px;
   color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
     margin-top: 12px;
@@ -58,36 +52,34 @@ const TimelineSection = styled.div`
   align-items: center;
   justify-content: center;
   gap: 12px;
-  @media (max-width: 660px) {
+  @media (max-width: 400px) {
     align-items: flex-end;
   }
 `;
 
-const Education = ({ education }) => {
+const Experience = ({ experience }) => {
   return (
-    <Container id="education">
+    <Container id="experience">
       <Wrapper>
-        <Title>Education</Title>
+        <Title>Experience</Title>
         <TimelineSection>
-          <Timeline>
-            {education.map((edu, index) => (
-              <TimelineItem key={edu.id}>
-                <TimelineContent sx={{ py: '12px', px: 2 }}>
-                  <EducationCard education={edu} />
-                </TimelineContent>
+            {experience.map((exp, index) => (
+              <TimelineItem key={exp.id} aria-label={`Experience item ${index + 1}`} >
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
-                  {index < education.length - 1 && (
-                    <TimelineConnector style={{ background: '#4840BB' }} />
+                  {index < experience.length - 1 && (
+                    <TimelineConnector style={{ background: '#854CE6' }} />
                   )}
                 </TimelineSeparator>
+                <TimelineContent>
+                  <ExperienceCard experience={exp} />
+                </TimelineContent>
               </TimelineItem>
             ))}
-          </Timeline>
         </TimelineSection>
       </Wrapper>
     </Container>
   );
 };
 
-export default Education;
+export default Experience;

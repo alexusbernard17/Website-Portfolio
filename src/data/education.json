@@ -1,29 +1,28 @@
 {
-    "education": [
-      {
-        "id": 1,
-        "school": "Georgia Institute of Technology",
-        "degree": "Bachelor of Science in Computer Science",
-        "date": "2021 - 2023",
-        "location": "Atlanta, GA",
-        "img": "/images/gatech.png"
-      },
-      {
-        "id": 2,
-        "school": "Whatcom Community College",
-        "degree": "Associate of Science in General Engineering & Physics",
-        "date": "2019 - 2020",
-        "location": "Bellingham, WA",
-        "img": "/images/whatcom-cc-logo.png"
-      },
-      {
-        "id": 3,
-        "school": "SMA BPK Penabur Banda",
-        "degree": "Cambridge International General Certificate of Secondary Education",
-        "date": "2014-2018",
-        "location": "Bandung, Indonesia",
-        "img": "/images/bpk-logo.png"
-      }
-    ]
-  }
-  
+  "education": [
+    {
+      "id": 1,
+      "school": "Georgia Institute of Technology",
+      "degree": "Bachelor of Science in Computer Science",
+      "date": "2021 - 2023",
+      "location": "Atlanta, GA",
+      "img": "/images/gatech-logo.png"
+    },
+    {
+      "id": 2,
+      "school": "Whatcom Community College",
+      "degree": "Associate of Science in General Engineering & Physics",
+      "date": "2019 - 2020",
+      "location": "Bellingham, WA",
+      "img": "/images/whatcom-cc-logo.png"
+    },
+    {
+      "id": 3,
+      "school": "SMA BPK Penabur Banda",
+      "degree": "Cambridge International General Certificate of Secondary Education",
+      "date": "2014 - 2018",
+      "location": "Bandung, Indonesia",
+      "img": "/images/bpk-logo.png"
+    }
+  ]
+}
