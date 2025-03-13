@@ -4,6 +4,8 @@ import SpaceBoy from "../LottieFiles/SpaceBoy.json";
 import Typed from "./Typed.js";
 import Tilt from 'react-parallax-tilt';
 import Avatar from '../images/Avatar.png';
+import {FaGithub, FaLinkedin} from "react-icons/fa";
+import { IoMail } from "react-icons/io5";
 import {CiCoffeeCup} from "react-icons/ci";          
 
 const Home = () => {
@@ -14,10 +16,13 @@ const Home = () => {
         <div className='HomeText'>
           <h1>Hello World 👋,</h1>
           <h1>I'm <b>Alexus Brooklyn</b></h1>
-          <Typed/>   
+          <Typed/>
 
-
-          <i class="devicon-linkedin-plain colored"></i>
+          <div className='headerLinks'>
+            <a href="https://github.com/alexusbernard17/" target='_blank' rel="noopener noreferrer"><FaGithub/></a>
+            <a href="https://www.linkedin.com/in/alexusbrooklyn/" target='_blank' rel="noopener noreferrer"><FaLinkedin/></a>
+            <a href='mailTo:alexusbernardbrooklyn@gmail.com' target='_blank' rel="noopener noreferrer"><IoMail/></a>
+          </div>
         </div>
 
         <Lottie 

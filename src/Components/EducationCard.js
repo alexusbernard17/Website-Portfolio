@@ -127,8 +127,7 @@ const EducationCard = ({ education }) => {
         <Card aria-labelledby={`education-card-${education.id}`} role="article" tabIndex="0">
             <Top>
                 <Image 
-                    src={education.img} 
-                    alt={`${education.school} - Sibi Siddharth S`} 
+                    src={education.img}
                 />
                 <Body>
                     <Name>{education.school}</Name>
