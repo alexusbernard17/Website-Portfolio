@@ -1,9 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import {AiOutlineHome} from "react-icons/ai";
-import {BsPerson, BsCodeSlash} from "react-icons/bs";
-import {CgFileDocument} from "react-icons/cg";
 
 
 const Nav = () => {
@@ -42,7 +39,9 @@ const Nav = () => {
   return (
     <nav className={navbarblur? 'Navbar blur':'Navbar'}> 
  
-        <h1 title='Reload' onClick={()=>window.location.reload(true)} className='Logo'>AB</h1>
+        <h1 className='Logo'>
+            <a href="/" onClick={() => window.location.reload(true)}>Alexus Brooklyn</a>
+        </h1>
 
         <div className='Hamburger' onClick={showMenu}>
             <span className='bar'></span>
@@ -51,10 +50,10 @@ const Nav = () => {
         </div>
 
         <ul className='NavbarLinks'>
-            <li onClick={hideMenu}><Link to="/"><AiOutlineHome/> Home</Link></li>
-            <li onClick={hideMenu}><Link to="/About"><BsPerson/> About</Link></li>
-            <li onClick={hideMenu}><Link to="/Project"><BsCodeSlash/> Project</Link></li>
-            <li onClick={hideMenu}><Link to="/Resume"><CgFileDocument/> Resume</Link></li>
+            <li onClick={hideMenu}><Link to="/"> Home</Link></li>
+            <li onClick={hideMenu}><Link to="/About"> About</Link></li>
+            <li onClick={hideMenu}><Link to="/Project">Project</Link></li>
+            <li onClick={hideMenu}><Link to="/Resume"> Resume</Link></li>
         </ul>
         
     </nav>

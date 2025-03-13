@@ -20,9 +20,7 @@
 
 body{
   font-family: 'Raleway', sans-serif;
-  background-color: #ffffff;
   background: linear-gradient(90deg, #F7EAE4, #DCDEF1);
-  /* color: #E7E7E7; */
   color: #230B59;
   min-height: 100vh;
 }
@@ -83,20 +81,45 @@ b{
 }
 
 .blur{
-  background-color:#01111a8d;
-  backdrop-filter: blur( 15px );
-  -webkit-backdrop-filter: blur( 20px );
+  background: linear-gradient(90deg, #F7EAE4, #DCDEF1);
 }
 
 .Logo{
-  font-size: 32px;
-  letter-spacing: 2px;
-  padding-left: 7%;
-  color: #9067C6;
+  font-size: 18px;
+  padding-left: 3%;
+  color: #230B59;
   display: flex;
   align-items: center;
   text-align: center;
   cursor:pointer;
+}
+
+.Logo a{
+  color: #230B59;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 95%;
+  padding: 2px 7px;
+  text-decoration: none;
+}
+.Logo a:hover{
+  color: #4840BB;
+}
+.Logo a::after{
+  background-color: #4840BB;
+  content: "";
+  position: absolute;
+  height: 3px;
+  left: 5px;
+  bottom: 0;
+  width: 0px;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+.Logo a:hover:after{
+  width: 94%;
 }
 
 .NavbarLinks{
@@ -104,8 +127,8 @@ b{
   justify-content: space-between;
   align-items: center;
   padding-right: 7%;
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: 501;
+  font-size: 18px;
 }
 
 .NavbarLinks li{
@@ -114,22 +137,20 @@ b{
 }
 
 .NavbarLinks a{
-  color: #c2c1c2;
+  color: #230B59;
   display:flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
   width: 95%;
   padding: 2px 7px;
-  letter-spacing: 0.5px;
   text-decoration: none;
 }
-
 .NavbarLinks a:hover{
-  color: #ffffff;
+  color: #4840BB;
 }
 .NavbarLinks a::after{
-  background-color: #ffffff;
+  background-color: #4840BB;
   content: "";
   position: absolute;
   height: 3px;
@@ -140,13 +161,18 @@ b{
   transition: 0.3s;
 }
 .NavbarLinks a:hover:after{
-  width: 95%;
+  width: 75%;
 }
+
 .Hamburger{
   display: none;
 }
 
 @media(max-width:800px){
+  .Logo{
+    padding-left: 6%
+  }
+  
   .Navbar{
     width: 100%;
   }
@@ -159,8 +185,8 @@ b{
     position: fixed;
     inset: 0 0 0 50%;
     gap: 50px;
-    background-color:#431f47;
     height: 100vh;
+    background: linear-gradient(90deg, #F7EAE4, #DCDEF1);
     padding-top: max(20%,120px);
     transform: translateX(100%);
     transition: 0.5s;
@@ -180,7 +206,7 @@ b{
 
   .bar{
     display: block;
-    background-color: #E7E7E7;
+    background-color: #230B59;
     border-radius: 50px;
     height: 2.5px;
     width: 30px;
