@@ -328,8 +328,7 @@ b{
   padding-bottom: 40px;
 }
 .AboutText a{
-  color: #9067C6;
-  text-decoration: underline;
+  color: #4840BB;
   font-weight: bold;
 }
 
@@ -356,7 +355,7 @@ b{
   }
 
   .Avatar{
-    width: 200px;
+    width: 300px;
     margin-bottom: 75px;
   }
 }
