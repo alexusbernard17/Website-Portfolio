@@ -52,9 +52,9 @@ function App() {
         <Route path="/Project" element={<Project/>}/>
         <Route path="/Resume" element={<Resume/>}/>
       </Routes> */}
-      <Home/>          
-      <About/>
-      <Education education={educationData.education}/>
+      <Home/>
+      <Education education={educationData.education}/>          
+      {/* <About/> */}
 
       <Footer/>
       </div>

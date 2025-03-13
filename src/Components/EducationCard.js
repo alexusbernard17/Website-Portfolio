@@ -13,17 +13,6 @@ const Document = styled.img`
     }
 `;
 
-const Description = styled.p`
-    width: 100%;
-    font-size: 15px;
-    font-weight: 400;
-    color: ${({ theme }) => theme.text_primary + 99};
-    margin-bottom: 10px;
-    @media only screen and (max-width: 768px) {
-        font-size: 12px;
-    }
-`;
-
 const Span = styled.span`
     overflow: hidden;
     display: -webkit-box;
@@ -71,12 +60,11 @@ const Top = styled.div`
 `;
 
 const Image = styled.img`
-    height: 50px;
-    background-color: #000;
+    height: 150px;
     border-radius: 10px;
     margin-top: 4px;
     @media only screen and (max-width: 768px) {
-        height: 40px;
+        height: 70px;
     }
 `;
 
@@ -87,36 +75,40 @@ const Body = styled.div`
 `;
 
 const Name = styled.h2`
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 600;
+    margin-bottom: -3px;
     color: ${({ theme }) => theme.text_primary + 99};
     @media only screen and (max-width: 768px) {
         font-size: 14px;
     }
 `;
 
-const Degree = styled.p`
-    font-size: 14px;
+const Location = styled.p`
+    font-size: 17px;
     font-weight: 500;
     color: ${({ theme }) => theme.text_secondary + 99};
-    @media only screen and (max-width: 768px) {
-        font-size: 12px;
-    }
-`;
-
-const Date = styled.p`
-    font-size: 12px;
-    font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary + 80};
     @media only screen and (max-width: 768px) {
         font-size: 10px;
     }
 `;
 
-const Grade = styled.p`
-    font-size: 14px;
+const Degree = styled.p`
+    font-size: 18px;
     font-weight: 500;
+    font-style: italic;
+    margin-top: 4%;
     color: ${({ theme }) => theme.text_secondary + 99};
+    @media only screen and (max-width: 768px) {
+        font-size: 12px;
+        line-height: 15px;
+    }
+`;
+
+const Date = styled.p`
+    font-size: 18px;
+    font-weight: 500;
+    color: ${({ theme }) => theme.text_secondary + 80};
     @media only screen and (max-width: 768px) {
         font-size: 12px;
     }
@@ -131,14 +123,11 @@ const EducationCard = ({ education }) => {
                 />
                 <Body>
                     <Name>{education.school}</Name>
+                    <Location>{education.location}</Location>
                     <Degree>{education.degree}</Degree>
                     <Date>{education.date}</Date>
                 </Body>
             </Top>
-            <Grade><b>Grade: </b>{education.grade}</Grade>
-            <Description>
-                <Span>{education.desc}</Span>
-            </Description>
         </Card>
     );
 };

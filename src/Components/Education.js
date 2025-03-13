@@ -53,7 +53,7 @@ const Education = ({ education }) => {
   return (
     <Container id="education">
       <Wrapper>
-        <h1>Education</h1>
+        <h1 className='AboutTextHeading'>Education</h1>
         <TimelineSection>
           <Timeline>
             {education.map((edu, index) => (
