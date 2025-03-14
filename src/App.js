@@ -11,8 +11,10 @@ import nightsky from "./LottieFiles/night-sky.json";
 import HashLoader from "react-spinners/HashLoader";
 import Education from "./Components/Education";
 import Experience from "./Components/Experience";
+import Skills from "./Components/Skills";
 import educationData from "./data/education.json";
 import experienceData from "./data/experience.json";
+import skillsData from "./data/skill.json";
 
 
 function App() {
@@ -47,6 +49,9 @@ function App() {
                     </section>
                     <section id="experience">
                         <Experience experience={experienceData.experience} />
+                    </section>
+                    <section id="skills">
+                        <Skills skill={skillsData.skill} />
                     </section>
                     <Footer />
                 </div> )

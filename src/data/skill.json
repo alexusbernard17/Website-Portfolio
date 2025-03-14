@@ -1,0 +1,206 @@
+{
+	"skill": [
+    {
+			"title": "Languages",
+      "skills": [
+        {
+          "name": "Java",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg"
+        }, 
+        {
+          "name": "Python",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+        },
+        {
+          "name": "JavaScript",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+        }, 
+        {
+          "name": "TypeScript",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+        },
+        {
+          "name": "C#",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg"
+        }, 
+        {
+          "name": "Go",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg"
+        },
+        {
+          "name": "C",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-plain.svg"
+        },
+        {
+          "name": "HTML",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+        },
+        {
+          "name": "CSS",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+        }, 
+        {
+          "name": "SASS",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
+        },
+        {
+          "name": "Assembly",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wasm/wasm-original.svg"
+        }
+      ]
+		},
+		{
+			"title": "Frontend Frameworks/ Libraries",
+      "skills": [
+        {
+          "name": "React",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+        }, 
+        {
+          "name": "Angular",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg"
+        },
+        {
+          "name": "Next.js",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+        },
+        {
+          "name": "Material UI",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg"
+        },
+        {
+          "name": "TailwindCSS",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+        },
+        {
+          "name": "Bootstrap",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+        }
+      ]
+		},
+		{
+			"title": "Backend Frameworks/ Libraries",
+      "skills": [
+        {
+          "name": ".NET",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg"
+        }, 
+        {
+          "name": "Node.js",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+        },
+        {
+          "name": "Express.js",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+        },
+        {
+          "name": "Spring Boot",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
+        },
+        {
+          "name": "GraphQL",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg"
+        }
+      ]
+		},
+    {
+			"title": "Databases",
+      "skills": [
+        {
+          "name": "Azure Storage",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"
+        },
+        {
+          "name": "MS SQL",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg"
+        },
+        {
+          "name": "MySQL",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+        },
+        {
+          "name": "PostgreSQL",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain.svg"
+        },
+        {
+          "name": "MongoDB",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+        },
+        {
+          "name": "Firebase",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
+        }
+      ]
+		},
+    {
+			"title": "AI & ML",
+      "skills": [
+        {
+          "name": "SciKit",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg"
+        },
+        {
+          "name": "Numpy",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg"
+        },
+        {
+          "name": "PyTorch",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg"
+        },
+        {
+          "name": "Pandas",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg"
+        }
+      ]
+		},
+    {
+			"title": "Softwares/ Tools",
+      "skills": [
+        {
+          "name": "Git",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+        }, 
+        {
+          "name": "GitHub",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+        },
+        {
+          "name": "BitBucket",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bitbucket/bitbucket-original.svg"
+        },
+        {
+          "name": "Azure DevOps",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuredevops/azuredevops-original.svg"
+        },
+        {
+          "name": "Jira",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg"
+        }, 
+        {
+          "name": "Postman",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
+        },
+        {
+          "name": "Docker",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
+        }, 
+        {
+          "name": "Tableau",
+          "image": "/images/tableau.svg"
+        },
+        {
+          "name": "MATLAB",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg"
+        },
+        {
+          "name": "Jupyter Notebook",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg"
+        },
+        {
+          "name": "Confluence",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/confluence/confluence-original.svg"
+        }
+      ]
+		}
+	]
+}  
