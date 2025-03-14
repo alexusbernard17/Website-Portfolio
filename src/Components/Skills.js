@@ -55,13 +55,13 @@ const SkillsContainer = styled.div`
 
 const Skill = styled.div`
   width: 100%;
-  max-width: 500px;
+  max-width: 460px;
   border: 0.1px solid #4840BB;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
   padding: 18px 36px;
-  //background: linear-gradient(90deg, rgba(253, 243, 213, 0.3), rgba(217, 237, 202, 0.3));
-  background-color: rgba(232, 244, 223, 0.3);
+  background: linear-gradient(90deg, rgba(253, 243, 213, 0.15), rgba(217, 237, 202, 0.15));
+  // background-color: rgba(251, 207, 186, 0.15);
   @media (max-width: 768px) {
     max-width: 400px;
     padding: 10px 36px;
@@ -121,7 +121,6 @@ const Skills = ({ skill }) => {
     <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
-        <Desc>Here are some of my skills on which I have been working!</Desc>
         <SkillsContainer>
           {skill.map((item1, index) => (
             <Skill key={index}>

@@ -100,6 +100,22 @@
         {
           "name": "GraphQL",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg"
+        },
+        {
+          "name": "SciKit",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg"
+        },
+        {
+          "name": "Numpy",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg"
+        },
+        {
+          "name": "PyTorch",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg"
+        },
+        {
+          "name": "Pandas",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg"
         }
       ]
 		},
@@ -107,7 +123,7 @@
 			"title": "Databases",
       "skills": [
         {
-          "name": "Azure Storage",
+          "name": "Azure Cloud Storage",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"
         },
         {
@@ -129,27 +145,6 @@
         {
           "name": "Firebase",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
-        }
-      ]
-		},
-    {
-			"title": "AI & ML",
-      "skills": [
-        {
-          "name": "SciKit",
-          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg"
-        },
-        {
-          "name": "Numpy",
-          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg"
-        },
-        {
-          "name": "PyTorch",
-          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg"
-        },
-        {
-          "name": "Pandas",
-          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg"
         }
       ]
 		},
@@ -195,6 +190,10 @@
         {
           "name": "Jupyter Notebook",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg"
+        },
+        {
+          "name": "Figma",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
         },
         {
           "name": "Confluence",
