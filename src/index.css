@@ -329,6 +329,11 @@ b{
   color: #4840BB;
 }
 
+ /* Instagram */
+ .headerLinks a:nth-child(4):hover { 
+  color: #C13584;
+}
+
 .AboutPage{
   display: flex;
   justify-content: space-evenly;
@@ -578,6 +583,11 @@ footer h4{
  /* Email */
 .footerLinks a:nth-child(3):hover { 
   color: #4840BB;
+}
+
+ /* Instagram */
+ .footerLinks a:nth-child(4):hover { 
+  color: #C13584;
 }
 
 @media(max-width:750px){

@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaGithub, FaLinkedin} from "react-icons/fa";
+import {FaGithub, FaLinkedin, FaInstagram} from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 
 const Footer = () => {
@@ -10,6 +10,7 @@ const Footer = () => {
         <a href="https://github.com/alexusbernard17/" target='_blank' rel="noopener noreferrer"> <FaGithub/></a>
         <a href="https://www.linkedin.com/in/alexusbrooklyn/" target='_blank' rel="noopener noreferrer"><FaLinkedin/></a>
         <a href='mailTo:alexusbernardbrooklyn@gmail.com' target='_blank' rel="noopener noreferrer"><IoMail/></a>
+        <a href='https://instagram.com/alexusbrooklyn/' target='_blank' rel="noopener noreferrer"><FaInstagram/></a>
       </div>
     </footer>
   )
