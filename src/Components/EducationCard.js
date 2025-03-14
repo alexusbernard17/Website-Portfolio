@@ -27,6 +27,8 @@ const Card = styled.article`
     border-radius: 10px;
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
     padding: 12px 16px;
+    //background: linear-gradient(90deg, rgba(251, 207, 186, 0.3), rgba(195, 204, 242, 0.3));
+    background-color: rgba(232, 244, 223, 0.3);
     justify-content: space-between;
     position: relative;
     overflow: hidden;
@@ -51,7 +53,7 @@ const Card = styled.article`
         overflow: visible;
         -webkit-line-clamp: unset;
     }
-    border: 0.1px solid #854CE6;
+    border: 0.1px solid #4840BB;
 `;
 
 const Top = styled.div`
