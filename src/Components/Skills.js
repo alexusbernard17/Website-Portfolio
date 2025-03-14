@@ -63,11 +63,11 @@ const Skill = styled.div`
   background: linear-gradient(90deg, rgba(253, 243, 213, 0.15), rgba(217, 237, 202, 0.15));
   // background-color: rgba(251, 207, 186, 0.15);
   @media (max-width: 768px) {
-    max-width: 400px;
+    max-width: 275px;
     padding: 10px 36px;
   }
   @media (max-width: 500px) {
-    max-width: 330px;
+    max-width: 275px;
     padding: 10px 36px;
   }
 `;

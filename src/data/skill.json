@@ -32,6 +32,10 @@
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-plain.svg"
         },
         {
+          "name": "PHP",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
+        },
+        {
           "name": "HTML",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
         },
@@ -42,15 +46,40 @@
         {
           "name": "SASS",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
+        }
+      ]
+		},
+    {
+			"title": "Databases",
+      "skills": [
+        {
+          "name": "Azure Cloud Storage",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"
         },
         {
-          "name": "Assembly",
-          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wasm/wasm-original.svg"
+          "name": "MS SQL",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg"
+        },
+        {
+          "name": "MySQL",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+        },
+        {
+          "name": "PostgreSQL",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain.svg"
+        },
+        {
+          "name": "MongoDB",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+        },
+        {
+          "name": "Firebase",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
         }
       ]
 		},
 		{
-			"title": "Frontend Frameworks/ Libraries",
+			"title": "Frontend Frameworks & Libraries",
       "skills": [
         {
           "name": "React",
@@ -63,6 +92,10 @@
         {
           "name": "Next.js",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+        },
+        {
+          "name": "jQuery",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg"
         },
         {
           "name": "Material UI",
@@ -79,7 +112,7 @@
       ]
 		},
 		{
-			"title": "Backend Frameworks/ Libraries",
+			"title": "Backend Frameworks & Libraries",
       "skills": [
         {
           "name": ".NET",
@@ -120,41 +153,20 @@
       ]
 		},
     {
-			"title": "Databases",
+			"title": "DevOps & Softwares & Tools",
       "skills": [
         {
-          "name": "Azure Cloud Storage",
-          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"
+          "name": "Azure",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg"
         },
-        {
-          "name": "MS SQL",
-          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg"
-        },
-        {
-          "name": "MySQL",
-          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
-        },
-        {
-          "name": "PostgreSQL",
-          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain.svg"
-        },
-        {
-          "name": "MongoDB",
-          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
-        },
-        {
-          "name": "Firebase",
-          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
-        }
-      ]
-		},
-    {
-			"title": "Softwares/ Tools",
-      "skills": [
         {
           "name": "Git",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
         }, 
+        {
+          "name": "Azure DevOps",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuredevops/azuredevops-original.svg"
+        },
         {
           "name": "GitHub",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
@@ -162,10 +174,6 @@
         {
           "name": "BitBucket",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bitbucket/bitbucket-original.svg"
-        },
-        {
-          "name": "Azure DevOps",
-          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuredevops/azuredevops-original.svg"
         },
         {
           "name": "Jira",
@@ -186,10 +194,6 @@
         {
           "name": "MATLAB",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg"
-        },
-        {
-          "name": "Jupyter Notebook",
-          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg"
         },
         {
           "name": "Figma",
