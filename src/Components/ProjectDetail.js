@@ -142,7 +142,7 @@ const ProjectDetail = ({ openModal, setOpenModal }) => {
                 setOpenModal({ state: false, project: null });
               }}
             />
-            <Image src={project?.image} alt={`Image for project titled ${project.title} - by Sibi Siddharth S`}/>
+            <Image src={project?.image}/>
             <Title>{project?.title}</Title>
             <Date>{project.date}</Date>
             <Tags>

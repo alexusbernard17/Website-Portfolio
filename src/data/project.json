@@ -21,10 +21,10 @@
         {
             "id": 3,
             "title": "Major Wonder Whale",
-            "image": "path/to/newsletter-image.png",
+            "image": "/images/major-wonder-whale.gif",
             "description": "A task management mobile application tailored for an ASD patient and their caregiver to better navigate their day-to-day tasks. This project was a private client deliverable for our Junior Design (Capstone) project at Georgia Tech’s College of Computing. Aiming to improve daily task navigation and organization, we prioritized usability, accessibility, and efficiency while leveraging Agile methodologies to continuously incorporate client feedback and refine the application to better support the unique needs of the user and their caregiver. Collaborating as a team over two semesters, we designed the app's mockup and the system’s architecture, including its components, data storage, and back-end API. We broke down the components into user stories, and started to implement and develop the app in iterative sprints using React Native, Firebase, Node.js and Express.js.",
             "date": "August 2022 - May 2023",
-            "github": "https://github.com/example/newsletter",
+            "github": "https://github.com/alexusbernard17/JIA-2321-MajorWonderWhale",
             "tags": ["React Native", "Firebase", "Express.js", "Node.js", "Jira", "Figma"]
         },
         {
@@ -43,7 +43,7 @@
             "description": "A RESTful Gift Card API that provides a structured and efficient way to manage digital gift cards using JSON format. It includes endpoints to retrieve all gift cards, search by store or ID, create new gift cards, and manage their balances through addition, subtraction, modification, or removal of value. Users can also delete gift cards by ID for better data management. To streamline testing and integration, a Postman collection file is included, making it easy for developers to explore and interact with the API.",
             "date": "June 2022",
             "github": "https://github.com/alexusbernard17/Gift-Card-API",
-            "tags": [".NET", "C#", "Postman", "Visual Studio"]
+            "tags": [".NET", "C#", "Postman", "Visual Studio", "Swagger UI"]
         },
         {
             "id": 6,

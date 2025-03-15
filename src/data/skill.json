@@ -192,6 +192,10 @@
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
         },
         {
+          "name": "Swagger",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg"
+        },
+        {
           "name": "Tableau",
           "image": "/images/tableau.svg"
         },
