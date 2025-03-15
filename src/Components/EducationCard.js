@@ -27,8 +27,6 @@ const Card = styled.article`
     border-radius: 10px;
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
     padding: 12px 16px;
-    // background: linear-gradient(90deg, rgba(251, 207, 186, 0.15), rgba(195, 204, 242, 0.15));
-    background-color: rgba(251, 207, 186, 0.15);
     justify-content: space-between;
     position: relative;
     overflow: hidden;

@@ -16,7 +16,7 @@ const Button = styled.button`
 const Card = styled.article`
     width: 330px;
     height: 490px;
-    background: linear-gradient(90deg, rgba(251, 207, 186, 0.15), rgba(195, 204, 242, 0.15));
+    background-color: rgba(226, 206, 212, 0.75);
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.4);
@@ -84,7 +84,7 @@ const Tags = styled.div`
 const Tag = styled.span`
     font-size: 12px;
     font-weight: 400;
-    background-color: #e8f4df;
+    background-color: #E8F4DF;
     padding: 2px 8px;
     border-radius: 10px;
 `;

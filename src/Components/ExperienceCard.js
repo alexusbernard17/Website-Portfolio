@@ -26,9 +26,6 @@ const Card = styled.article`
     width: 650px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
-    // background: linear-gradient(90deg, rgba(232, 234, 252, 0.3), rgba(246, 234, 228, 0.3));
-    // background-color: rgba(2, 2, 2, 0.3);
-    background: linear-gradient(90deg, rgba(253, 243, 213, 0.3), rgba(217, 237, 202, 0.3));
     padding: 12px 16px;
     justify-content: space-between;
     position: relative;

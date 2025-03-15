@@ -23,8 +23,7 @@ const Wrapper = styled.div`
   border-radius: 16px;
   margin: 50px 12px;
   height: min-content;
-  background-color: #ffffff;
-  color: ${({ theme }) => theme.text_primary};
+  background-color: #E2CED4;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -34,7 +33,6 @@ const Wrapper = styled.div`
 const Title = styled.div`
   font-size: 28px;
   font-weight: 600;
-  color: ${({ theme }) => theme.text_primary};
   margin: 8px 6px 0px 6px;
   @media only screen and (max-width: 600px) {
       font-size: 24px;
@@ -46,7 +44,7 @@ const Date = styled.div`
     font-size: 16px;
     margin: 2px 6px;
     font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary};
+    color: #4E3B7A;
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
@@ -55,7 +53,7 @@ const Date = styled.div`
 const Desc = styled.div`
     font-size: 16px;
     font-weight: 400;
-    color: ${({ theme }) => theme.text_primary};
+    color: #4E3B7A;
     margin: 8px 6px;
     @media only screen and (max-width: 600px) {
         font-size: 14px;
@@ -70,17 +68,6 @@ const Image = styled.img`
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
 `;
 
-const Label = styled.div`
-    font-size: 20px;
-    font-weight: 600;
-    color: ${({ theme }) => theme.text_primary};
-    margin: 8px 6px;
-    @media only screen and (max-width: 600px) {
-        font-size: 16px;
-        margin: 8px 6px;
-    }
-`;
-
 const Tags = styled.div`
     display: flex;
     flex-wrap: wrap;
@@ -93,11 +80,10 @@ const Tags = styled.div`
 const Tag = styled.div`
     font-size: 14px;
     font-weight: 400;
-    color: ${({ theme }) => theme.primary};
     margin: 4px;
     padding: 4px 8px;
     border-radius: 8px;
-    background-color: ${({ theme }) => theme.primary + 20};
+    background-color: #E8F4DF;
     @media only screen and (max-width: 600px) {
         font-size: 12px;
     }
@@ -106,32 +92,26 @@ const Tag = styled.div`
 
 const ButtonGroup = styled.div`
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin: 12px 0px;
     gap: 12px;
 `;
 
 const Button = styled.a`
-    width: 100%;
+    width: 15%;
     text-align: center;
     font-size: 16px;
     font-weight: 600;
-    color: ${({ theme }) => theme.text_primary};
+    color: #230B59;
     padding: 12px 16px;
     border-radius: 8px;
-    background-color: ${({ theme }) => theme.primary};
-    ${({ dull, theme }) => dull && `
-        background-color: ${theme.bgLight};
-        color: ${theme.text_secondary};
-        &:hover {
-            background-color: ${({ theme }) => theme.bg + 99};
-        }
-    `}
+    background-color: #E8F4DF;
+    opacity: 0.8;
     cursor: pointer;
     text-decoration: none;
     transition: all 0.5s ease;
     &:hover {
-        background-color: ${({ theme }) => theme.primary + 99};
+        background-color: #A2AA9C;
     }
     @media only screen and (max-width: 600px) {
         font-size: 12px;
@@ -192,10 +172,7 @@ const ProjectDetail = ({ openModal, setOpenModal }) => {
             )} */}
             <ButtonGroup>
               {project?.github && (
-                <Button dull href={project?.github} target="_blank">View Code</Button>)}
-              {/* {project?.webapp && (
-                <Button href={project.webapp} target="_blank">View Live</Button>
-              )} */}
+                <Button href={project?.github} target="_blank">View Code</Button>)}
             </ButtonGroup>
           </Wrapper>
         </Container>

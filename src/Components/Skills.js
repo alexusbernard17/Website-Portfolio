@@ -60,8 +60,7 @@ const Skill = styled.div`
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
   padding: 18px 36px;
-  background: linear-gradient(90deg, rgba(253, 243, 213, 0.15), rgba(217, 237, 202, 0.15));
-  // background-color: rgba(251, 207, 186, 0.15);
+  background-color: rgba(226, 206, 212, 0.75);
   @media (max-width: 768px) {
     max-width: 275px;
     padding: 10px 36px;
