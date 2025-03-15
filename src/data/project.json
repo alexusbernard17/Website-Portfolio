@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "Website Portfolio",
-            "image": "/images/sfi-logo.jpeg",
+            "image": "/images/web-portfolio.png",
             "description": "A dynamic and responsive web portfolio developed with React, Material UI, and Tailwind CSS to showcase my education, experience, projects, and skills in an engaging and user-friendly way. Designed with a sleek and intuitive interface, the portfolio ensures seamless navigation, making it easy for visitors to explore my background and accomplishments.",
             "date": "March 2025",
             "github": "https://github.com/alexusbernard17/Website-Portfolio",
@@ -12,7 +12,7 @@
         {
             "id": 2,
             "title": "NBA MVP Machine Learning Predictor",
-            "image": "/images/sfi-logo.jpeg",
+            "image": "/images/nba-mvp.gif",
             "description": "A group project on an NBA MVP Machine Learning Predictor model designed to forecast NBA players' performance, particularly their points per game, using a range of machine learning techniques. We utilized a Python based API web scraper to collect and gather our dataset from 1996 up until 2023 through the NBA’s official website, analyzing key metrics such as win shares, player efficiency rating, and value over replacement players. Our methodology involved testing Linear Regression, Random Forest, and XGBoost models, with XGBoost achieving the highest accuracy at 76%. Metrics can influence contract negotiations, scouting, and the draft, helping identify talent, so this research contributes valuable insights for NBA teams, analysts, and fans, bridging the gap between AI-driven performance prediction and real-world applications.",
             "date": "August 2023 - December 2023",
             "github": "https://github.com/alexusbernard17/ml-group-project",
@@ -49,7 +49,7 @@
             "id": 6,
             "title": "Tower Defense Game",
             "image": "path/to/tindog-image.png",
-            "description": "An Android mobile application game developed using Android Studio with Java and XML as part of a semester-long team project. Followed the Unified Process Milestones, utilized Git/GitHub for version control, designed key diagrams (Domain Model, DCD, SSDs, and SDs), and integrated unit testing with JUnit to ensure the reliability of the application.",
+            "description": "An Android mobile application game developed using Android Studio with Java and XML as part of a semester-long team project. Followed the Unified Process Milestones, utilized Git/GitHub for version control, designed key diagrams such as its Domain Model, Design Class Diagrams (DCD), System Sequence Diagrams (SSD), and Sequence Diagrams (SD). We also integrated unit testing with JUnits to ensure the reliability of the application features and variables.",
             "date": "January 2022 - May 2022",
             "github": "https://github.com/alexusbernard17/tower-defense",
             "tags": ["Java", "Android Studio", "Kotlin"]
