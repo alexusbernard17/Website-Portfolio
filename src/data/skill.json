@@ -182,15 +182,15 @@
         {
           "name": "Jira",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg"
-        }, 
-        {
-          "name": "Postman",
-          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
         },
         {
           "name": "Docker",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
-        }, 
+        },
+        {
+          "name": "Postman",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
+        },
         {
           "name": "Tableau",
           "image": "/images/tableau.svg"

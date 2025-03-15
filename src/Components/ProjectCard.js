@@ -125,7 +125,7 @@ const Description = styled.p`
     margin-top: 8px;
     display: -webkit-box;
     max-width: 100%;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 8;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
 `;

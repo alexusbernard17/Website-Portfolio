@@ -2,39 +2,57 @@
     "project": [
         {
             "id": 1,
-            "title": "Wiggles",
+            "title": "Website Portfolio",
             "image": "/images/sfi-logo.jpeg",
-            "description": "A fun pet adoption web app.",
-            "date": "2024-01-10",
-            "github": "https://github.com/example/wiggles",
-            "tags": ["sda", "sadd"]
+            "description": "A dynamic and responsive web portfolio developed with React, Material UI, and Tailwind CSS to showcase my education, experience, projects, and skills in an engaging and user-friendly way. Designed with a sleek and intuitive interface, the portfolio ensures seamless navigation, making it easy for visitors to explore my background and accomplishments.",
+            "date": "March 2025",
+            "github": "https://github.com/alexusbernard17/Website-Portfolio",
+            "tags": ["React", "Material UI", "TailwindCSS"]
         },
         {
             "id": 2,
-            "title": "Newsletter",
-            "image": "path/to/newsletter-image.png",
-            "description": "A simple newsletter subscription service.",
-            "date": "2024-02-15",
-            "github": "https://github.com/example/newsletter",
-            "tags": ["asd"]
+            "title": "NBA MVP Machine Learning Predictor",
+            "image": "/images/sfi-logo.jpeg",
+            "description": "A group project on an NBA MVP Machine Learning Predictor model designed to forecast NBA players' performance, particularly their points per game, using a range of machine learning techniques. We utilized a Python based API web scraper to collect and gather our dataset from 1996 up until 2023 through the NBA’s official website, analyzing key metrics such as win shares, player efficiency rating, and value over replacement players. Our methodology involved testing Linear Regression, Random Forest, and XGBoost models, with XGBoost achieving the highest accuracy at 76%. Metrics can influence contract negotiations, scouting, and the draft, helping identify talent, so this research contributes valuable insights for NBA teams, analysts, and fans, bridging the gap between AI-driven performance prediction and real-world applications.",
+            "date": "August 2023 - December 2023",
+            "github": "https://github.com/alexusbernard17/ml-group-project",
+            "tags": ["Python", "SciKit", "Pandas", "Numpy", "Jupyter Notebook"]
         },
         {
             "id": 3,
-            "title": "RogFree",
-            "image": "path/to/rogfree-image.png",
-            "description": "A decentralized content-sharing platform.",
-            "date": "2023-12-05",
-            "github": "https://github.com/example/rogfree",
-            "tags": ["dsf"]
+            "title": "Major Wonder Whale",
+            "image": "path/to/newsletter-image.png",
+            "description": "A task management mobile application tailored for an ASD patient and their caregiver to better navigate their day-to-day tasks. This project was a private client deliverable for our Junior Design (Capstone) project at Georgia Tech’s College of Computing. Aiming to improve daily task navigation and organization, we prioritized usability, accessibility, and efficiency while leveraging Agile methodologies to continuously incorporate client feedback and refine the application to better support the unique needs of the user and their caregiver. Collaborating as a team over two semesters, we designed the app's mockup and the system’s architecture, including its components, data storage, and back-end API. We broke down the components into user stories, and started to implement and develop the app in iterative sprints using React Native, Firebase, Node.js and Express.js.",
+            "date": "August 2022 - May 2023",
+            "github": "https://github.com/example/newsletter",
+            "tags": ["React Native", "Firebase", "Express.js", "Node.js", "Jira", "Figma"]
         },
         {
             "id": 4,
-            "title": "Tindog",
+            "title": "NCR Go",
+            "image": "path/to/rogfree-image.png",
+            "description": "A React Native mobile application designed to optimize retail customer's shopping experience by providing real-time product availability and precise aisle locations in stores. Leveraging Microsoft Azure's Computer Vision Toolkit, we trained a machine learning model on the Freiburg Groceries Dataset, achieving around 94% accuracy in detecting a product's shelf stock availablity. The application seamlessly updates inventory data in a MongoDB cluster, ensuring accurate and up-to-date product tracking. This project was a submission for the NCR’s 2022 Global Hackathon, where we ranked in the top 10 of the software division out of over 400 submissions.",
+            "date": "July 2022",
+            "github": "https://github.com/alexusbernard17/ncr-go",
+            "tags": ["React Native", "MongoDB", "Python", "MS Azure Computer Vision Toolkit", "Figma"]
+        },
+        {
+            "id": 5,
+            "title": "Gift Card REST API",
+            "image": "path/to/rogfree-image.png",
+            "description": "A RESTful Gift Card API that provides a structured and efficient way to manage digital gift cards using JSON format. It includes endpoints to retrieve all gift cards, search by store or ID, create new gift cards, and manage their balances through addition, subtraction, modification, or removal of value. Users can also delete gift cards by ID for better data management. To streamline testing and integration, a Postman collection file is included, making it easy for developers to explore and interact with the API.",
+            "date": "June 2022",
+            "github": "https://github.com/alexusbernard17/Gift-Card-API",
+            "tags": [".NET", "C#", "Postman", "Visual Studio"]
+        },
+        {
+            "id": 6,
+            "title": "Tower Defense Game",
             "image": "path/to/tindog-image.png",
-            "description": "A dating app for dogs.",
-            "date": "2024-03-01",
-            "github": "https://github.com/example/tindog",
-            "tags": ["dsa"]
+            "description": "An Android mobile application game developed using Android Studio with Java and XML as part of a semester-long team project. Followed the Unified Process Milestones, utilized Git/GitHub for version control, designed key diagrams (Domain Model, DCD, SSDs, and SDs), and integrated unit testing with JUnit to ensure the reliability of the application.",
+            "date": "January 2022 - May 2022",
+            "github": "https://github.com/alexusbernard17/tower-defense",
+            "tags": ["Java", "Android Studio", "Kotlin"]
         }
     ]
 }
