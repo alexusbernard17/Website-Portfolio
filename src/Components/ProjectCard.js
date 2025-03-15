@@ -143,7 +143,6 @@ const ProjectCard = ({ project, setOpenModal }) => {
             <ImageWrapper>
                 <Image
                     src={project.image}
-                    alt={`Image for project titled ${project.title}`}
                     onLoad={() => setIsLoading(false)}
                     onError={() => setIsLoading(false)}
                     isLoading={isLoading}
@@ -156,9 +155,9 @@ const ProjectCard = ({ project, setOpenModal }) => {
                 ))}
             </Tags>
             <Details>
-                <Title id={`project-title-${project.id}`}>{project.title}</Title>
-                <Date dateTime={project.date}>{project.date}</Date>
-                <Description>{project.description}</Description>
+                <Title> {project.title} </Title>
+                <Date> {project.date} </Date>
+                <Description> {project.description} </Description>
             </Details>
         </Card>
     );

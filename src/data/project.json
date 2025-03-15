@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "Wiggles",
-            "image": "path/to/wiggles-image.png",
+            "image": "/images/sfi-logo.jpeg",
             "description": "A fun pet adoption web app.",
             "date": "2024-01-10",
             "github": "https://github.com/example/wiggles",
