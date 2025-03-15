@@ -1,16 +1,10 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { FaGithub } from "react-icons/fa"; 
-import { RiHeartAddFill } from "react-icons/ri";
-
-const githubsponslink = 'https://github.com/sponsors/sibisiddharth8';
 
 const Button = styled.button`
     display: none;
     width: 100%;
     padding: 10px;
-    background-color: ${({ theme }) => theme.white};
-    color: ${({ theme }) => theme.text_black};
     font-size: 14px;
     font-weight: 700;
     border: none;
@@ -22,7 +16,7 @@ const Button = styled.button`
 const Card = styled.article`
     width: 330px;
     height: 490px;
-    background-color: ${({ theme }) => theme.card};
+    background: linear-gradient(90deg, rgba(251, 207, 186, 0.15), rgba(195, 204, 242, 0.15));
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.4);
@@ -35,7 +29,7 @@ const Card = styled.article`
     &:hover {
         transform: translateY(-10px);
         box-shadow: 0 0 50px 4px rgba(0, 0, 0, 0.6);
-        filter: brightness(1.1);
+        filter: brightness(0.6);
     }
     &:hover ${Button} {
         display: block;
@@ -49,7 +43,7 @@ const ImageWrapper = styled.div`
     align-items: center;
     width: 100%;
     height: 180px;
-    background-color: ${({ theme }) => theme.bgLight};
+    //background-color: #ffffff;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
@@ -90,8 +84,7 @@ const Tags = styled.div`
 const Tag = styled.span`
     font-size: 12px;
     font-weight: 400;
-    color: ${({ theme }) => theme.primary};
-    background-color: ${({ theme }) => theme.primary + 15};
+    background-color: #e8f4df;
     padding: 2px 8px;
     border-radius: 10px;
 `;
@@ -107,7 +100,6 @@ const Details = styled.div`
 const Title = styled.h2`
     font-size: 20px;
     font-weight: 600;
-    color: ${({ theme }) => theme.text_secondary};
     overflow: hidden;
     display: -webkit-box;
     max-width: 100%;
@@ -120,7 +112,7 @@ const Date = styled.time`
     font-size: 12px;
     margin-left: 2px;
     font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary + 80};
+    color: #4E3B7A;
     @media only screen and (max-width: 768px) {
         font-size: 10px;
     }
@@ -128,7 +120,7 @@ const Date = styled.time`
 
 const Description = styled.p`
     font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary + 99};
+    color: #4E3B7A;
     overflow: hidden;
     margin-top: 8px;
     display: -webkit-box;
@@ -138,51 +130,8 @@ const Description = styled.p`
     text-overflow: ellipsis;
 `;
 
-const CardDataHolder = styled.div`
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 10px;
-`;
-
-const Members = styled.div`
-    display: flex;
-    align-items: center;
-`;
-
-const SocialMediaIcon = styled.a`
-  display: flex;
-  font-size: 1.3rem;
-  color: ${({ theme }) => theme.text_primary};
-  transition: color 0.2s ease-in-out;
-  &:hover {
-    color: ${({ theme }) => theme.primary};
-  }
-`;
-
-const CardIcons = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.9rem;
-`;
-
-const Avatar = styled.img`
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    margin-left: -10px;
-    background-color: ${({ theme }) => theme.white};
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border: 3px solid ${({ theme }) => theme.card};
-`;
-
 const ProjectCard = ({ project, setOpenModal }) => {
     const [isLoading, setIsLoading] = useState(true);
-
-    const handleIconClick = (event) => {
-        event.stopPropagation();
-    };
 
     return (
         <Card
@@ -211,38 +160,6 @@ const ProjectCard = ({ project, setOpenModal }) => {
                 <Date dateTime={project.date}>{project.date}</Date>
                 <Description>{project.description}</Description>
             </Details>
-            <CardDataHolder>
-                <Members>
-                    {project.member?.map((member, index) => (
-                        <Avatar
-                            key={index}
-                            src={member.img}
-                            alt={`Profile of ${member.name}`}
-                        />
-                    ))}
-                </Members>
-                <CardIcons>
-                    {project?.github && (
-                        <SocialMediaIcon
-                            href={project.github}
-                            target="_blank"
-                            aria-label={`GitHub repository for ${project.title}`}
-                            onClick={handleIconClick}
-                        >
-                            <FaGithub size={24} />
-                        </SocialMediaIcon>
-                    )}
-
-                    <SocialMediaIcon 
-                        href={githubsponslink} 
-                        target="_blank" 
-                        aria-label="GitHub Sponsors page"
-                        onClick={handleIconClick}
-                    >
-                        <RiHeartAddFill size={26} />
-                    </SocialMediaIcon>
-                </CardIcons>
-            </CardDataHolder>
         </Card>
     );
 };

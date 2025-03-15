@@ -165,11 +165,11 @@ const ProjectDetail = ({ openModal, setOpenModal }) => {
             <Image src={project?.image} alt={`Image for project titled ${project.title} - by Sibi Siddharth S`}/>
             <Title>{project?.title}</Title>
             <Date>{project.date}</Date>
-            {/* <Tags>
+            <Tags>
               {project?.tags.map((tag) => (
                 <Tag key={tag}>{tag}</Tag>
               ))}
-            </Tags> */}
+            </Tags>
             <Desc>{project?.description}</Desc>
             {/* {project.member && (
               <>

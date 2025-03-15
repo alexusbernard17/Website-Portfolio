@@ -102,26 +102,25 @@ const ButtonContainer = styled.div`
 `;
 
 const Projects = ({ project }) => {
-  const [openModal, setOpenModal] = useState({ state: false, project: null });
+    const [openModal, setOpenModal] = useState({ state: false, project: null });
 
-  return (
-      <Container id="projects">
-          <Title>Projects</Title>
-          <CardContainer>
-              {project.map((proj) => (
-                  <ProjectCard key={proj.id} project={proj} setOpenModal={setOpenModal} />
-              ))}
-
-              {openModal.state && (
+    return (
+    <Container id="projects">
+        <Title>Projects</Title>
+        <CardContainer>
+            {project.map((proj) => (
+                <ProjectCard key={proj.id} project={proj} setOpenModal={setOpenModal} />
+            ))}
+            {openModal.state && (
                 <ProjectDetail 
-                  project={project.project} 
-                  openModal={openModal} 
-                  setOpenModal={setOpenModal} 
+                project={project.project} 
+                openModal={openModal} 
+                setOpenModal={setOpenModal} 
                 />
-              )}
-          </CardContainer>
-      </Container>
-  );
+            )}
+        </CardContainer>
+    </Container>
+    );
 };
 
 export default Projects;
