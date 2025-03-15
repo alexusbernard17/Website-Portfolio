@@ -5,16 +5,17 @@ import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
-import Project from "./Components/Projects";
 import Lottie from  "lottie-react";
 import nightsky from "./LottieFiles/night-sky.json";
 import HashLoader from "react-spinners/HashLoader";
 import Education from "./Components/Education";
 import Experience from "./Components/Experience";
 import Skills from "./Components/Skills";
+import Projects from "./Components/Projects";
 import educationData from "./data/education.json";
 import experienceData from "./data/experience.json";
 import skillsData from "./data/skill.json";
+import projectData from "./data/project.json";
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
     useEffect(() => {
         SetLoading(true)
         setTimeout(() => {SetLoading(false)}, 1900)
-    },[])  
+    },[])
+    const [openModal, setOpenModal] = useState({ state: false, project: null });
   
     return (
         <>
@@ -49,6 +51,9 @@ function App() {
                     </section>
                     <section id="experience">
                         <Experience experience={experienceData.experience} />
+                    </section>
+                    <section id="projects">
+                        <Projects project={projectData.project} />
                     </section>
                     <section id="skills">
                         <Skills skill={skillsData.skill} />

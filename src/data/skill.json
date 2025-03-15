@@ -108,6 +108,10 @@
         {
           "name": "Bootstrap",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+        },
+        {
+          "name": "Android Studio",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg"
         }
       ]
 		},

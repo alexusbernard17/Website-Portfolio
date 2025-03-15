@@ -1,0 +1,36 @@
+{
+    "project": [
+        {
+            "id": 1,
+            "title": "Wiggles",
+            "image": "path/to/wiggles-image.png",
+            "description": "A fun pet adoption web app.",
+            "date": "2024-01-10",
+            "github": "https://github.com/example/wiggles"
+        },
+        {
+            "id": 2,
+            "title": "Newsletter",
+            "image": "path/to/newsletter-image.png",
+            "description": "A simple newsletter subscription service.",
+            "date": "2024-02-15",
+            "github": "https://github.com/example/newsletter"
+        },
+        {
+            "id": 3,
+            "title": "RogFree",
+            "image": "path/to/rogfree-image.png",
+            "description": "A decentralized content-sharing platform.",
+            "date": "2023-12-05",
+            "github": "https://github.com/example/rogfree"
+        },
+        {
+            "id": 4,
+            "title": "Tindog",
+            "image": "path/to/tindog-image.png",
+            "description": "A dating app for dogs.",
+            "date": "2024-03-01",
+            "github": "https://github.com/example/tindog"
+        }
+    ]
+}
