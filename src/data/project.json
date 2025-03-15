@@ -30,7 +30,7 @@
         {
             "id": 4,
             "title": "NCR Go",
-            "image": "path/to/rogfree-image.png",
+            "image": "/images/ncr-go.gif",
             "description": "A React Native mobile application designed to optimize retail customer's shopping experience by providing real-time product availability and precise aisle locations in stores. Leveraging Microsoft Azure's Computer Vision Toolkit, we trained a machine learning model on the Freiburg Groceries Dataset, achieving around 94% accuracy in detecting a product's shelf stock availablity. The application seamlessly updates inventory data in a MongoDB cluster, ensuring accurate and up-to-date product tracking. This project was a submission for the NCR’s 2022 Global Hackathon, where we ranked in the top 10 of the software division out of over 400 submissions.",
             "date": "July 2022",
             "github": "https://github.com/alexusbernard17/ncr-go",
@@ -48,7 +48,7 @@
         {
             "id": 6,
             "title": "Tower Defense Game",
-            "image": "path/to/tindog-image.png",
+            "image": "/images/tower-defense.gif",
             "description": "An Android mobile application game developed using Android Studio with Java and XML as part of a semester-long team project. Followed the Unified Process Milestones, utilized Git/GitHub for version control, designed key diagrams such as its Domain Model, Design Class Diagrams (DCD), System Sequence Diagrams (SSD), and Sequence Diagrams (SD). We also integrated unit testing with JUnits to ensure the reliability of the application features and variables.",
             "date": "January 2022 - May 2022",
             "github": "https://github.com/alexusbernard17/tower-defense",
