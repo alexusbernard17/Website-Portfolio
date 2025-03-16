@@ -13,7 +13,7 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px 0 160px;
+  padding: 200px 25px 25px;
   position: relative;
   z-index: 1;
   @media (max-width: 960px) {
@@ -38,21 +38,20 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled.div`
-  font-size: 35px;
+  font-size: 42px;
   text-align: center;
   font-weight: 600;
   margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
+  margin-bottom: 20px;
   @media (max-width: 768px) {
     margin-top: 12px;
-    font-size: 26px;
+    font-size: 32px;
   }
 `;
 
 const TimelineSection = styled.div`
   width: 100%;
   max-width: 1000px;
-  margin-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;

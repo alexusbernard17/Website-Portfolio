@@ -11,7 +11,7 @@ const Container = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 0 60px;
+  padding: 200px 25px 25px;
   position: relative;
   z-index: 1;
 `;
@@ -31,15 +31,14 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled.h2`
-  font-size: 35px;
+  font-size: 42px;
   text-align: center;
   font-weight: 600;
   margin-top: 20px;
-  margin-bottom: 6px;
-  color: ${({ theme }) => theme.text_primary};
+  margin-bottom: 20px;
   @media (max-width: 768px) {
     margin-top: 12px;
-    font-size: 26px;
+    font-size: 32px;
   }
 `;
 

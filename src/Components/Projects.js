@@ -10,6 +10,7 @@ const Container = styled.div`
     position: relative;
     z-index: 1;
     align-items: center;
+    padding: 200px 25px 25px;
 `;
 
 const Wrapper = styled.div`
@@ -28,15 +29,15 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled.div`
-font-size: 42px;
-text-align: center;
-font-weight: 600;
-margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
-  @media (max-width: 768px) {
-      margin-top: 12px;
-      font-size: 32px;
-  }
+    font-size: 42px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    @media (max-width: 768px) {
+        margin-top: 12px;
+        font-size: 32px;
+    }
 `;
 
 const CardContainer = styled.div`
