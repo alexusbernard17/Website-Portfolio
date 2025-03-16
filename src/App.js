@@ -1,12 +1,8 @@
-import { Route, Routes } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Nav from './Components/Navbar';
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import About from "./Components/About";
-import Resume from "./Components/Resume";
-import Lottie from  "lottie-react";
-import nightsky from "./LottieFiles/night-sky.json";
 import HashLoader from "react-spinners/HashLoader";
 import Education from "./Components/Education";
 import Experience from "./Components/Experience";
@@ -24,7 +20,6 @@ function App() {
         SetLoading(true)
         setTimeout(() => {SetLoading(false)}, 1900)
     },[])
-    const [openModal, setOpenModal] = useState({ state: false, project: null });
   
     return (
         <>
@@ -40,20 +35,21 @@ function App() {
                 </div>
                 ):(
                 <div>
-                    {/* <Lottie className="bg" anim
-                    " animationData={nightsky} loop={true} />  */}
                     <Nav/>
                     <section id="home">
                         <Home />
                     </section>
+                    <section id="about">
+                        <About />
+                    </section>
                     <section id="education">
                         <Education education={educationData.education} />
                     </section>
-                    <section id="experience">
-                        <Experience experience={experienceData.experience} />
-                    </section>
                     <section id="projects">
                         <Projects project={projectData.project} />
+                    </section>
+                    <section id="experience">
+                        <Experience experience={experienceData.experience} />
                     </section>
                     <section id="skills">
                         <Skills skill={skillsData.skill} />

@@ -52,8 +52,8 @@ const Nav = () => {
         <ul className='NavbarLinks'>
             <li onClick={hideMenu}><Link to="home" smooth={true} duration={100}>About</Link></li>
             <li onClick={hideMenu}><Link to="education" smooth={true} duration={100}>Education</Link></li>
-            <li onClick={hideMenu}><Link to="experience" smooth={true} duration={100}>Experience</Link></li>
             <li onClick={hideMenu}><Link to="projects" smooth={true} duration={100}>Projects</Link></li>
+            <li onClick={hideMenu}><Link to="experience" smooth={true} duration={100}>Experience</Link></li>
             <li onClick={hideMenu}><Link to="skills" smooth={true} duration={100}>Skills</Link></li>
         </ul>
         
