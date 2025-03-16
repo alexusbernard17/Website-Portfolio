@@ -39,7 +39,7 @@
         {
             "id": 5,
             "title": "Gift Card REST API",
-            "image": "path/to/rogfree-image.png",
+            "image": "/images/gift-card-api.gif",
             "description": "A RESTful Gift Card API that provides a structured and efficient way to manage digital gift cards using JSON format. It includes endpoints to retrieve all gift cards, search by store or ID, create new gift cards, and manage their balances through addition, subtraction, modification, or removal of value. Users can also delete gift cards by ID for better data management. To streamline testing and integration, a Postman collection file is included, making it easy for developers to explore and interact with the API.",
             "date": "June 2022",
             "github": "https://github.com/alexusbernard17/Gift-Card-API",

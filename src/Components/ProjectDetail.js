@@ -1,4 +1,4 @@
-import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
+import { CloseRounded } from '@mui/icons-material';
 import { Modal } from '@mui/material';
 import React from 'react'
 import styled from 'styled-components'
@@ -23,7 +23,7 @@ const Wrapper = styled.div`
   border-radius: 16px;
   margin: 50px 12px;
   height: min-content;
-  background-color: #E2CED4;
+  background-color: #F0F0F2;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -105,16 +105,17 @@ const Button = styled.a`
     color: #230B59;
     padding: 12px 16px;
     border-radius: 8px;
-    background-color: #E8F4DF;
-    opacity: 0.8;
+    background-color: #F3CFC3;
+    opacity: 0.9;
     cursor: pointer;
     text-decoration: none;
     transition: all 0.5s ease;
     &:hover {
-        background-color: #A2AA9C;
+        background-color: #C2A59C;
     }
     @media only screen and (max-width: 600px) {
         font-size: 12px;
+        width: 20%;
     }
 `;
 
@@ -151,25 +152,6 @@ const ProjectDetail = ({ openModal, setOpenModal }) => {
               ))}
             </Tags>
             <Desc>{project?.description}</Desc>
-            {/* {project.member && (
-              <>
-                <Label>Team</Label>
-                <Members>
-                  {project?.member.map((member) => (
-                    <Member key={member.name}>
-                      <MemberImage src={member.img} alt={`Profile of ${member.name}`} />
-                      <MemberName>{member.name}</MemberName>
-                      <a href={member.github} target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
-                        <GitHub />
-                      </a>
-                      <a href={member.linkedin} target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
-                        <LinkedIn />
-                      </a>
-                    </Member>
-                  ))}
-                </Members>
-              </>
-            )} */}
             <ButtonGroup>
               {project?.github && (
                 <Button href={project?.github} target="_blank">View Code</Button>)}

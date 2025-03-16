@@ -16,7 +16,7 @@ const Button = styled.button`
 const Card = styled.article`
     width: 330px;
     height: 490px;
-    background-color: rgba(226, 206, 212, 0.75);
+    background-color: #F0F0F2;
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.4);
@@ -26,10 +26,16 @@ const Card = styled.article`
     flex-direction: column;
     gap: 14px;
     transition: all 0.5s ease-in-out;
+    @media (max-width: 768px) {
+        max-width: 275px;
+    }
+    @media (max-width: 500px) {
+        max-width: 275px;
+    }
     &:hover {
         transform: translateY(-10px);
         box-shadow: 0 0 50px 4px rgba(0, 0, 0, 0.6);
-        filter: brightness(0.6);
+        filter: brightness(0.8);
     }
     &:hover ${Button} {
         display: block;
@@ -58,9 +64,9 @@ const Image = styled.img`
 const Loader = styled.div`
     width: 40px;
     height: 40px;
-    border: 4px solid ${({ theme }) => theme.text_secondary};
+    border: 4px solid;
     border-radius: 50%;
-    border-top: 4px solid ${({ theme }) => theme.primary};
+    border-top: 4px solid;
     animation: spin 1s linear infinite;
     
     @keyframes spin {
