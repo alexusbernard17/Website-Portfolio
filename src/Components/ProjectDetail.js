@@ -83,7 +83,7 @@ const Tag = styled.div`
     margin: 4px;
     padding: 4px 8px;
     border-radius: 8px;
-    background-color: #E8F4DF;
+    background-color: #F3CFC3;
     @media only screen and (max-width: 600px) {
         font-size: 12px;
     }

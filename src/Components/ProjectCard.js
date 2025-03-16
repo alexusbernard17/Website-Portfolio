@@ -90,7 +90,7 @@ const Tags = styled.div`
 const Tag = styled.span`
     font-size: 12px;
     font-weight: 400;
-    background-color: #E8F4DF;
+    background-color: #F3CFC3;
     padding: 2px 8px;
     border-radius: 10px;
 `;

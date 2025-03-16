@@ -11,9 +11,13 @@ const Container = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 200px 25px 25px;
+  padding: 100px 25px 25px;
   position: relative;
   z-index: 1;
+  @media (max-width: 960px) {
+    padding: 0;
+    padding-top: 40px;
+  }
 `;
 
 const Wrapper = styled.div`
