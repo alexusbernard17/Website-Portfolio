@@ -148,7 +148,7 @@ const ProjectCard = ({ project, setOpenModal }) => {
         >
             <ImageWrapper>
                 <Image
-                    src={project.image}
+                    src={process.env.PUBLIC_URL + project.image}
                     onLoad={() => setIsLoading(false)}
                     onError={() => setIsLoading(false)}
                     isLoading={isLoading}

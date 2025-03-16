@@ -6,7 +6,7 @@
       "degree": "Bachelor of Science in Computer Science",
       "date": "2021 - 2023",
       "location": "Atlanta, GA",
-      "img": "../images/gatech-logo.png"
+      "img": "/images/gatech-logo.png"
     },
     {
       "id": 2,

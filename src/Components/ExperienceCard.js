@@ -116,7 +116,7 @@ const ExperienceCard = ({ experience }) => {
             aria-label={`Experience at ${experience.company}`}
         >
             <Top>
-                <Image src={experience.img} />
+                <Image src={process.env.PUBLIC_URL + experience.img} />
                 <Body>
                     <Company>{experience.company}</Company>
                     <Role>{experience.role}</Role>

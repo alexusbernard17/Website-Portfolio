@@ -143,7 +143,7 @@ const ProjectDetail = ({ openModal, setOpenModal }) => {
                 setOpenModal({ state: false, project: null });
               }}
             />
-            <Image src={project?.image}/>
+            <Image src={process.env.PUBLIC_URL + project?.image}/>
             <Title>{project?.title}</Title>
             <Date>{project.date}</Date>
             <Tags>
