@@ -188,6 +188,10 @@
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
         },
         {
+          "name": "Kubernetes",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg"
+        },
+        {
           "name": "Postman",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
         },

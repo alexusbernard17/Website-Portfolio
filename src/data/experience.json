@@ -6,12 +6,12 @@
 			"role": "Software Engineer",
 			"date": "Feb 2024 - Present",
 			"location": "Bethesda, MD",
-			"img": "/images/sfi-logo.jpeg"
+			"img": "/images/sfi-logo.png"
 		},
 		{
 			"id": 2,
 			"company": "United States Department of Agriculture",
-			"role": "Software Engineer - Contractor",
+			"role": "Software Developer - Contractor",
 			"date": "Mar 2025 - Present",
 			"location": "Washington, DC",
 			"img": "/images/usda-logo.png"
@@ -19,7 +19,7 @@
 		{
 			"id": 3,
 			"company": "United States Agency for International Development",
-			"role": "Software Engineer - Contractor",
+			"role": "Software Developer - Contractor",
 			"date": "Feb 2024 - Jan 2025",
 			"location": "Washington, DC",
 			"img": "/images/usaid-logo.svg"

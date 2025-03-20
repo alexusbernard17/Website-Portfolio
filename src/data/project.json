@@ -52,7 +52,7 @@
             "description": "An Android mobile application game developed using Android Studio with Java and XML as part of a semester-long team project. Followed the Unified Process Milestones, utilized Git/GitHub for version control, designed key diagrams such as its Domain Model, Design Class Diagrams (DCD), System Sequence Diagrams (SSD), and Sequence Diagrams (SD). We also integrated unit testing with JUnits to ensure the reliability of the application features and variables.",
             "date": "January 2022 - May 2022",
             "github": "https://github.com/alexusbernard17/tower-defense",
-            "tags": ["Java", "Android Studio", "Kotlin"]
+            "tags": ["Java", "Android Studio", "Kotlin", "XML"]
         }
     ]
 }
