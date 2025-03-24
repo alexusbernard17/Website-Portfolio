@@ -1,6 +1,5 @@
 # Alexus Brooklyn's Personal Website Portfolio
 
-This website is built on top of https://github.com/DevanshSahni/Portfolio <br />
 <br />
 Components: <br />
 • Navbar <br />
