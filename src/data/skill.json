@@ -143,6 +143,10 @@
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg"
         },
         {
+          "name": "TensorFlow",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg"
+        },
+        {
           "name": "Numpy",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg"
         },
