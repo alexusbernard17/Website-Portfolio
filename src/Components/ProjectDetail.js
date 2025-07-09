@@ -23,7 +23,7 @@ const Wrapper = styled.div`
   border-radius: 16px;
   margin: 50px 12px;
   height: min-content;
-  background-color: #F0F0F2;
+  background-color: #ffffff;
   padding: 20px;
   display: flex;
   flex-direction: column;
