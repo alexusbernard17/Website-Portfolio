@@ -4,22 +4,22 @@
 			"id": 1,
 			"company": "Spatial Front, Inc",
 			"role": "Software Engineer",
-			"date": "Feb 2024 - Present",
+			"date": "Feb 2024 - Jul 2025",
 			"location": "Bethesda, MD",
 			"img": "/images/sfi-logo.png"
 		},
 		{
 			"id": 2,
 			"company": "United States Department of Agriculture",
-			"role": "Software Developer - Contractor",
-			"date": "Mar 2025 - Present",
+			"role": "Software Developer - USDA FPAC Prometheus Contract",
+			"date": "Mar 2025 - Jul 2025",
 			"location": "Washington, DC",
 			"img": "/images/usda-logo.png"
 		},
 		{
 			"id": 3,
 			"company": "United States Agency for International Development",
-			"role": "Software Developer - Contractor",
+			"role": "Software Developer - USAID DISCO Contract",
 			"date": "Feb 2024 - Jan 2025",
 			"location": "Washington, DC",
 			"img": "/images/usaid-logo.svg"

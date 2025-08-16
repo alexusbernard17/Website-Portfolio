@@ -120,7 +120,7 @@ const Skills = ({ skill }) => {
   return (
     <Container id="skills">
       <Wrapper>
-        <Title>Skills</Title>
+        <Title>Technical Skills</Title>
         <SkillsContainer>
           {skill.map((item1, index) => (
             <Skill key={index}>

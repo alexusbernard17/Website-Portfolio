@@ -8,8 +8,10 @@ const About = () => {
             <div className='AboutText'>
             <h1 className='AboutTextHeading'>About Me</h1>
             <p>
-                My name is Alexus Brooklyn, and I currently live in Atlanta, Georgia. I am a Software Engineer with a strong background in <b>full-stack development</b>, API integration, and analytics dashboard creation. Over the years, I have gained experience working with various programming languages and frameworks, including <b>Java, Python, JavaScript, React, Angular, .NET, and SQL</b>, allowing me to create robust, scalable, and efficient applications. <br /> <br />
-                When I’m not working, you’ll usually find me playing basketball with friends or going for a run. I’m a HUGE sports fan and love watching college football, the NFL, NBA, and F1. Huge Seahawks supporter and a big LeBron fan! Thanks for visiting my page, and please feel free to reach out or connect anytime!
+                📍 Currently residing in <b>Atlanta, Georgia</b>. <br></br>
+                <br></br>I'm a Full-Stack Software Engineer with 2 years of experience building and deploying applications across US Federal Government and SaaS enterprise sectors. Versatile and skilled in multiple front-end and back-end frameworks including <b>TypeScript & JavaScript</b>, <b>React & Angular</b>, <b>.NET Microservices</b>, <b>Node.js & Express.js</b>, <b>Java Spring Boot</b>, <b>Python</b>, and <b>SQL</b>. Strong track record of collaborating with cross-functional teams in fast-paced SCRUM/ Kanban Agile environments to deliver secure, scalable, and accessible software solutions. Experienced in leveraging cloud platforms and containerized services to enhance system reliability and maintain robust CI/CD pipelines. <br></br>
+                <br></br>I'm passionate about AI, with hands-on projects and coursework in <b>Artificial Intelligence</b>, <b>Machine Learning</b>, and <b>Computer Vision</b> through my BS in Computer Science at Georgia Tech. <br></br>
+                <br></br>Outside of work, I’m usually on the basketball court with friends or out for a run. I’m a huge sports fan and love following College Football, the NFL, NBA, and F1. Thanks for checking my profile and please feel free to connect or reach out anytime
             </p>
             </div>
             <Tilt>
