@@ -6,14 +6,14 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import EducationCard from './EducationCard';
+import CertificateCard from './CertificateCard';
 
 const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px 25px 25px;
+  padding: 100px 25px 25px;
   position: relative;
   z-index: 1;
   @media (max-width: 960px) {
@@ -62,21 +62,21 @@ const TimelineSection = styled.div`
   }
 `;
 
-const Education = ({ education }) => {
+const Certificate = ({ certificate }) => {
   return (
-    <Container id="education">
+    <Container id="certificate">
       <Wrapper>
-        <Title>Education</Title>
+        <Title>Certificates</Title>
         <TimelineSection>
           <Timeline>
-            {education.map((edu, index) => (
-              <TimelineItem key={edu.id}>
+            {certificate.map((ctx, index) => (
+              <TimelineItem key={ctx.id}>
                 <TimelineContent sx={{ py: '12px', px: 2 }}>
-                  <EducationCard education={edu} />
+                  <CertificateCard certificate={ctx} />
                 </TimelineContent>
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
-                  {index < education.length - 1 && (
+                  {index < certificate.length - 1 && (
                     <TimelineConnector style={{ background: '#4840BB' }} />
                   )}
                 </TimelineSeparator>
@@ -89,4 +89,4 @@ const Education = ({ education }) => {
   );
 };
 
-export default Education;
+export default Certificate;

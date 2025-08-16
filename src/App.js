@@ -7,9 +7,11 @@ import HashLoader from "react-spinners/HashLoader";
 import Education from "./Components/Education";
 import Experience from "./Components/Experience";
 import Skills from "./Components/Skills";
+import Certificate from "./Components/Certificate";
 import Projects from "./Components/Projects";
 import educationData from "./data/education.json";
 import experienceData from "./data/experience.json";
+import certificateData from "./data/certificate.json";
 import skillsData from "./data/skill.json";
 import projectData from "./data/project.json";
 
@@ -53,6 +55,9 @@ function App() {
                     </section>
                     <section id="skills">
                         <Skills skill={skillsData.skill} />
+                    </section>
+                    <section id="certificate">
+                        <Certificate certificate={certificateData.certificate} />
                     </section>
                     <Footer />
                 </div> )

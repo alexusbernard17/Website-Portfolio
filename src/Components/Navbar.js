@@ -55,6 +55,7 @@ const Nav = () => {
             <li onClick={hideMenu}><Link to="projects" smooth={true} duration={100}>Projects</Link></li>
             <li onClick={hideMenu}><Link to="experience" smooth={true} duration={100}>Experience</Link></li>
             <li onClick={hideMenu}><Link to="skills" smooth={true} duration={100}>Skills</Link></li>
+            <li onClick={hideMenu}><Link to="certificate" smooth={true} duration={100}>Certificates</Link></li>
         </ul>
         
     </nav>
