@@ -26,11 +26,11 @@
 		},
 		{
 			"id": 4,
-			"company": "NCR Corporation",
+			"company": "NCR Voyix",
 			"role": "Software Engineer Intern",
 			"date": "May 2022 - Aug 2022",
 			"location": "Atlanta, GA",
-			"img": "/images/ncr-logo.png"
+			"img": "/images/ncr-voyix-logo.png"
 		},
 		{
 			"id": 5,
