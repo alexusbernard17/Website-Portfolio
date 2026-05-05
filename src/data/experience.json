@@ -3,7 +3,7 @@
 		{
 			"id": 1,
 			"company": "United States Department of Agriculture",
-			"role": "Software Developer - USDA FPAC Prometheus Contract",
+			"role": "Software Engineer - USDA FPAC Prometheus Contract",
 			"date": "Feb 2025 - Jul 2025",
 			"location": "Washington, DC",
 			"img": "/images/usda-logo.png"
@@ -11,7 +11,7 @@
 		{
 			"id": 2,
 			"company": "United States Agency for International Development",
-			"role": "Software Developer - USAID DISCO Contract",
+			"role": "Software Engineer - USAID DISCO Contract",
 			"date": "Feb 2024 - Jan 2025",
 			"location": "Washington, DC",
 			"img": "/images/usaid-logo.svg"
