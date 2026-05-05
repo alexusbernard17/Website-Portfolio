@@ -156,7 +156,11 @@
 			"title": "Databases",
       "skills": [
         {
-          "name": "Azure Cloud Storage",
+          "name": "Neon",
+          "image": "/images/neon.svg"
+        },
+        {
+          "name": "Azure SQL",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"
         },
         {
@@ -189,8 +193,20 @@
 			"title": "DevOps",
       "skills": [ 
         {
+          "name": "AWS",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+        },
+        {
           "name": "Azure",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg"
+        },
+        {
+          "name": "GCP",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg"
+        },
+        {
+          "name": "Vercel",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
         },
         {
           "name": "Git",
@@ -238,28 +254,12 @@
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
         },
         {
-          "name": "Eclipse",
-          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eclipse/eclipse-original.svg"
-        },
-        {
-          "name": "Jupyter",
-          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg"
-        },
-        {
           "name": "Postman",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
         },
         {
-          "name": "Swagger",
-          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg"
-        },
-        {
-          "name": "Tableau",
-          "image": "/images/tableau.svg"
-        },
-        {
-          "name": "MATLAB",
-          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg"
+          "name": "Sonarqube",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sonarqube/sonarqube-original.svg"
         },
         {
           "name": "Figma",
@@ -268,6 +268,30 @@
         {
           "name": "Confluence",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/confluence/confluence-original.svg"
+        },
+        {
+          "name": "Swagger",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg"
+        },
+        {
+          "name": "Jupyter",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg"
+        },
+        {
+          "name": "BigQuery",
+          "image": "/images/bigquery.svg"
+        },
+        {
+          "name": "Looker",
+          "image": "/images/looker.svg"
+        },
+        {
+          "name": "Tableau",
+          "image": "/images/tableau.svg"
+        },
+        {
+          "name": "MATLAB",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg"
         }
       ]
 		}

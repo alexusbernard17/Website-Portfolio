@@ -5,7 +5,8 @@ import { IoMail } from "react-icons/io5";
 const Footer = () => {
   return (
     <footer>
-      <h4>Copyright &copy; Alexus Brooklyn 2025</h4>
+      {/* <h4>Copyright &copy; Alexus Brooklyn 2025</h4> */}
+      <h5>&copy; {new Date().getFullYear()} Alexus Brooklyn. All rights reserved.</h5>
       <div className='footerLinks'>
         <a href="https://github.com/alexusbernard17/" target='_blank' rel="noopener noreferrer"> <FaGithub/></a>
         <a href="https://www.linkedin.com/in/alexusbrooklyn/" target='_blank' rel="noopener noreferrer"><FaLinkedin/></a>

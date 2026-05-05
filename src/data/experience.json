@@ -2,22 +2,14 @@
 	"experience": [
 		{
 			"id": 1,
-			"company": "Spatial Front, Inc",
-			"role": "Software Engineer",
-			"date": "Feb 2024 - Jul 2025",
-			"location": "Bethesda, MD",
-			"img": "/images/sfi-logo.png"
-		},
-		{
-			"id": 2,
 			"company": "United States Department of Agriculture",
 			"role": "Software Developer - USDA FPAC Prometheus Contract",
-			"date": "Mar 2025 - Jul 2025",
+			"date": "Feb 2025 - Jul 2025",
 			"location": "Washington, DC",
 			"img": "/images/usda-logo.png"
 		},
 		{
-			"id": 3,
+			"id": 2,
 			"company": "United States Agency for International Development",
 			"role": "Software Developer - USAID DISCO Contract",
 			"date": "Feb 2024 - Jan 2025",
@@ -25,7 +17,7 @@
 			"img": "/images/usaid-logo.svg"
 		},
 		{
-			"id": 4,
+			"id": 3,
 			"company": "Georgia Tech College of Computing",
 			"role": "Computer Science Tutor & CS 2110 PLUS Session Leader",
 			"date": "May 2023 - Dec 2023",
@@ -33,7 +25,7 @@
 			"img": "/images/gt-coc-logo.jpeg"
 		},
 		{
-			"id": 5,
+			"id": 4,
 			"company": "NCR Corporation",
 			"role": "Software Engineer Intern",
 			"date": "May 2022 - Aug 2022",
@@ -41,7 +33,7 @@
 			"img": "/images/ncr-logo.png"
 		},
 		{
-			"id": 6,
+			"id": 5,
 			"company": "Whatcom Community College",
 			"role": "Computer Science Tutor",
 			"date": "May 2020 - Dec 2020",
