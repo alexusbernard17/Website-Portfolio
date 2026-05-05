@@ -15,3 +15,6 @@ Components: <br />
 • ExperienceCard <br />
 • Skills <br />
 • Footer <br />
+
+<br />
+Deploy command: npm run build
