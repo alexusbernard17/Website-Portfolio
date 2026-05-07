@@ -143,6 +143,10 @@
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg"
         },
         {
+          "name": "Redis",
+          "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg"
+        },
+        {
           "name": "Django",
           "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg"
         },
